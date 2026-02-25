@@ -75,8 +75,8 @@
   {
     "label": "AI Assistant",
     "menu_id": "ai_agent0",
-        "target": "ai_agent",
-        "url": "../../interface/agentforge-clinical/index.php",
+    "target": "ai_agent",
+    "url": "/interface/agentforge-clinical/index.php",
     "children": [],
     "requirement": 0,
     "acl_req": [
