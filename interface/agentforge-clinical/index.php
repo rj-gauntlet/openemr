@@ -23,7 +23,7 @@ if (!acl_check('patients', 'med')) {
 
 // In production, this URL should be updated to point to the secure internal server 
 // hosting the AgentForge FastAPI/Streamlit microservice, rather than the public MVP URL.
-$assistant_url = "https://agentforge-healthcare.streamlit.app/?embed=true";
+$assistant_url = "http://localhost:8501/?embed=true";
 ?>
 <html>
 <head>
