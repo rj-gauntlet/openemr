@@ -420,6 +420,10 @@ $twig = (new TwigContainer(null, OEGlobalsBag::getInstance()->getKernel()))->get
             . ',' . json_encode($_SESSION['authProvider']); ?>));
     </script>
     <style>
+      #ai_agent0 {
+        color: #005B96 !important;
+        font-weight: bold !important;
+      }
       html,
       body {
         width: max-content;
