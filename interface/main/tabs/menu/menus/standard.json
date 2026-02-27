@@ -2268,7 +2268,7 @@
     "requirement": 0
   },
   {
-    "label": "AI Assistant",
+    "label": "<span style=\"color: #005B96; font-weight: bold;\">AI Assistant *</span>",
     "menu_id": "ai_agent0",
     "target": "ai_agent",
     "url": "/interface/agentforge-clinical/index.php",
