@@ -22,8 +22,8 @@ use OpenEMR\Core\Header;
 // }
 
 // In production, this URL should be updated to point to the secure internal server 
-// hosting the AgentForge FastAPI/Streamlit microservice, rather than the public MVP URL.
-$assistant_url = "http://localhost:8501/?embed=true";
+// hosting the AgentForge FastAPI/React microservice, rather than the public MVP URL.
+$assistant_url = "https://agentforge.up.railway.app";
 ?>
 <html>
 <head>
@@ -35,7 +35,7 @@ $assistant_url = "http://localhost:8501/?embed=true";
             padding: 0;
             height: 100%;
             overflow: hidden;
-            background-color: #0E1117; /* Matches Streamlit Dark Mode */
+            background-color: #FFFFFF; /* Matches React Clinical Theme */
         }
         #agentforge-iframe {
             width: 100%;
